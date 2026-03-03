@@ -1,0 +1,47 @@
+{
+  "projectType": "saas",
+  "projectName": "Game of Thrones Intro Creator",
+  "projectDescription": "Create personalized Game of Thrones intro videos with custom text and resolution options.",
+  "theme": "almond",
+  "primaryColor": "#D4AF37",
+  "lightColor": null,
+  "darkColor": null,
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/customization",
+          "features/video-quality",
+          "features/delivery"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "use-cases",
+          "faq"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Custom title and end text for personalized intros",
+    "HD and 4K resolution options",
+    "Email delivery of rendered videos",
+    "Authentic Game of Thrones intro recreation"
+  ],
+  "publicApiSurface": [
+    "Title Text input field",
+    "End Text input field",
+    "Email Address input field",
+    "Resolution selector (HD, 4K)"
+  ]
+}
